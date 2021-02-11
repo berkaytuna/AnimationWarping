@@ -1,0 +1,36 @@
+{
+    "FileVersion": 3,
+    "Version": 1,
+    "VersionName": "1.0",
+    "FriendlyName": "Animation Warping",
+    "Description": "Speed and Orientation Warping for realistic movement",
+    "Category": "Other",
+    "CreatedBy": "Berkay Tuna",
+    "CreatedByURL": "",
+    "DocsURL": "",
+    "MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/0876d79618e14083aba571afd06bb02b",
+    "SupportURL": "",
+    "EngineVersion": "4.24.0",
+    "CanContainContent": false,
+    "Installed": true,
+    "Modules": [
+        {
+            "Name": "AnimationWarping",
+            "Type": "Runtime",
+            "LoadingPhase": "PreDefault",
+            "WhitelistPlatforms": [
+                "Win64",
+                "Win32"
+            ]
+        },
+        {
+            "Name": "AnimationWarpingEditor",
+            "Type": "Editor",
+            "LoadingPhase": "PreDefault",
+            "WhitelistPlatforms": [
+                "Win64",
+                "Win32"
+            ]
+        }
+    ]
+}
